@@ -1,0 +1,115 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 35px;
+    background-color:rgb(185, 167, 6);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 42px;
+    color:blue;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 1.55vw;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body h2 {
+    justify-content: left;
+    font-size: 35px;
+    color: blue;
+}
+
+.personal p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px 0 15px 200px;
+}
+
+.personal img {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: right;
+}
+
+.run {
+    background-image: url('./assets/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.run h3 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+.fake-1 {
+    margin: 0px;
+    justify-content: right;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('./');
+}
+
+.fake-1 h3 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+
+.contact nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: right;
+    list-style: none;
+}
+
+.contact nav ul li {
+    text-align: right;
+    color: #024e76;
+    font-size: 30px;
+}
+
+.extra-work {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
